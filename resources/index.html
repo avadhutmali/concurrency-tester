@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Neutralinojs Concurrency Benchmark</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 40px;
+        }
+        .container {
+            border: 1px solid #00ff00;
+            padding: 20px;
+            max-width: 600px;
+        }
+        #status { font-size: 1.2em; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>System Native Bridge IPC Benchmark</h2>
+        <p>Testing C++ backend concurrency limit via WebSockets...</p>
+        <div id="status">Waiting to start...</div>
+    </div>
+
+    <script src="js/neutralino.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
